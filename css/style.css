@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    overflow-x: none;
+}
+
+
+:root {
+    --noto: 'Noto Serif', serif;
+    --narrow: 'PT Sans Narrow', sans-serif;
+    --bellota: 'Bellota', cursive;
+    --oswald:  'Oswald', sans-serif;
+
+
+}
+
+/* page 1 */
+
+/* TAGS */
+/* ALL HTML TAGS THAT WAS STYLED ON THIS PAGE. */
+.body-1 {
+    background-image: url(/image/bg-image..jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0; 
+    margin: 20% 10%;
+    text-align: center;
+    font-family: var(--bellota);
+}
+
+p {
+    display: inline;
+}
+
+/* ALL STYLING AND CLASSES THAT HAS TO DO WITH PAGE ONE */
+
+.click {
+margin-top:20px;
+    font-family : var(--oswald);
+    font-size: bold;
+}
+
+.button {
+    border-color: black;
+    background-color: #ECDABE;
+    margin-top: 3%;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #EC5759;
+}
+
+/* page 2 */
+
+/* STYLING OF PAGE 2 */
+
+.first-nav{
+    background-color: #F8F8F8;
+    padding:0;
+    word-spacing: 10px;
+margin: 0 0 0 0;
+padding-bottom: 0px;
+}
+
+nav {
+    background-color: #562900;
+}
+
+.section-one {
+    padding: 5% 10% 5% 10%;
+
+
+}
+.p-one {
+    display: inline;
+     text-align: center;
+}
+.bot {
+    background-color: #562900;
+    color: black;
+    border-radius: 8px;
+}
+
+
+.image {
+    height: 400px;;
+    width: 350px;
+    padding-top: 10px;
+}
+
+/* SECOND SECTION */
+.section-two {
+    text-align: center;
+    background-color: #562a008a; 
+     width: 100%; 
+    color: brown;
+    padding-top: 5%;
+}
+
+.section-2 {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.carousel-item {
+    padding: 3% 15%;
+    align-self: center;
+} 
+
+.texti {
+    font-size: 3.5rem;
+}
+
+.card {
+    align-self: center !important;
+    margin: auto;
+}
+
+.p-one {
+    padding-top: 5%;
+}
+
+ /* third section */
+.section-three {
+    padding: 5% 3%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.section-4{
+    margin: auto;
+    text-align: center;
+    padding: 5% 0;
+}
+
+footer {
+    background-color:#562900;
+    padding: 5% 0;
+}
+
+
+.foot {
+padding: 2%;
+color: black;
+}
